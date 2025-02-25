@@ -33,6 +33,6 @@ services:
 volumes:
   postgres-data:
   
-network:
+networks:
   app: 
     driver: bridge

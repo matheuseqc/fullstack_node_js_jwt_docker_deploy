@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5003
 
 # Define the command to run your application
-CMD ["node", "./src/server.js"]
+CMD ["npm", "run", "start"]
